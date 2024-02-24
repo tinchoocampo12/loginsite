@@ -4,7 +4,7 @@ function loginUser(email, password) {
     
     // validar campos vacíos
     if (email.trim() === '' || password.trim() === '') {
-        alert("Please complete both fields.");
+        alert("Please complete all fields.");
         return;
     }
 
@@ -56,6 +56,6 @@ document.getElementById('login-button').addEventListener('click', function(event
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
 
-    // iniciar sesión del usuario
+    // iniciar la sesión del usuario
     loginUser(email, password);
 });
