@@ -51,6 +51,7 @@ main{
 
 .welcome{
     max-width: 100%;
+    padding: 1rem;
 }
 
 .welcome-wrapper{
