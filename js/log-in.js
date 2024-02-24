@@ -1,5 +1,8 @@
 // función para comprobar si el usuario existe en el LS
 function loginUser(email, password) {
+    // Convertir el correo electrónico a minúsculas
+    email = email.toLowerCase();
+    
     // tomar los datos del usuario del LS en base al email registrado
     var userDataJSON = localStorage.getItem(email);
 
@@ -28,6 +31,6 @@ document.getElementById('login-button').addEventListener('click', function(e) {
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
 
-
+    // iniciar sesión del usuario
     loginUser(email, password);
 });

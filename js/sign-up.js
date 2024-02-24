@@ -1,5 +1,8 @@
-// funcion para registar un nuevo usuario
+// función para registrar un nuevo usuario
 function registerUser(username, email, password) {
+    // Convertir el correo electrónico a minúsculas
+    email = email.toLowerCase();
+
     // chequear si el usuario existe en el LS antes de registrar
     if (localStorage.getItem(email)) {
         alert("User already exists. Please try again.");
@@ -12,7 +15,7 @@ function registerUser(username, email, password) {
         password: password
     };
 
-    // convertir el tipo de dato objecto a string para su utilizacion en LS
+    // convertir el tipo de dato objecto a string para su utilización en LS
     var userDataJSON = JSON.stringify(userData);
 
     // setear el email como "llave" para validar después
