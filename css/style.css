@@ -145,9 +145,14 @@ background: linear-gradient(90deg, rgba(33,212,253,1) 14%, rgba(183,33,255,1) 87
 .login-form{
     margin-top: 3rem;
     margin-bottom: 2rem;
+    max-width: 100%;
 }
 
 .form-login{
+    max-width: 100%;
+}
+
+.input-wrapper{
     max-width: 100%;
 }
 
@@ -159,6 +164,7 @@ background: linear-gradient(90deg, rgba(33,212,253,1) 14%, rgba(183,33,255,1) 87
     padding-bottom: .5rem;
     padding-top: .5rem;;
     padding-left: .3rem;
+    max-width: 100%;
 }
 
 
@@ -178,6 +184,8 @@ background: linear-gradient(90deg, rgba(33,212,253,1) 14%, rgba(183,33,255,1) 87
     width: 100%;
     text-decoration: none;
     font-weight: 400;
+    display: flex;
+    justify-content: center;
 }
 
 .show-pass{
@@ -188,6 +196,7 @@ background: linear-gradient(90deg, rgba(33,212,253,1) 14%, rgba(183,33,255,1) 87
 .dont{
     color: #949494;
     font-size: 13px;
+    text-align: center;
 }
 
 .dont a{
