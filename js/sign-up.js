@@ -25,9 +25,8 @@ function registerUser(username, email, password) {
 }
 
 // click para quitar el evento por defecto del botón
-document.getElementById('register-button').addEventListener('click', function(e) {
-    e.preventDefault();
-
+document.getElementById('register-button').addEventListener('click', function() {
+  
     var username = document.getElementById('username').value;
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;

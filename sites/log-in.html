@@ -11,19 +11,21 @@
     <main class="flex-center">
         <div class="welcome column-center">
             <div class="welcome-wrapper column-center gap-2">
+                <div class="back"><a href="../index.html"><i class="bi bi-arrow-left"></i></a></div>
                 <div class="title column-center gap-05">
                     <h1 class="color-text">Login</h1>
                     <span class="martin">M</span>
                 </div>
                 <div class="login-form column-center gap-1">
                     <form class="form-login column-center gap-2">
-                        <div class="input-wrapper"><input type="email" class="email" id="email" placeholder="Email" size="35"></div>
-                        <div class="input-wrapper"><input type="password" class="password" id="password" placeholder="Password" size="35"></div>
+                        <div class="input-wrapper"><input type="email" class="email" id="email" placeholder="Email" size="35" required></div>
+                        <div class="input-wrapper"><input type="password" class="password" id="password" placeholder="Password" size="35" required></div>
+                        <div class="login-button content-center">
+                            <div class="option login-option" id="login"><button type="submit" id="login-button">LOGIN</button></div>
+                        </div>
                     </form>
                 </div>
-                <div class="login-button content-center">
-                    <div class="option login-option" id="login"><button id="login-button">LOGIN</button></div>
-                </div>
+                
                 <div class="have-account column-center gap-05 color-text">
                     <p  class="dont">Don't have an account? <a href="sign-up.html">Sign-Up</a></p>
                     </div>
