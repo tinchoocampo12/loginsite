@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gap-2{
+    gap: 2rem;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+.gap-05{
+    gap: .5rem;
+}
+
+.color-text{
+    color: #191919;
+}
+
+main{
+    background: rgb(242,242,242);
+    background: radial-gradient(circle, rgba(242,242,242,1) 0%, rgba(228,228,228,1) 48%);
+    background-position: center;
+    min-height: 100vh;
+}
+
+.title img{
+    max-width: 70px;
+    
+}
+
+.welcome{
+    max-width: 100%;
+}
+
+.welcome-wrapper{
+    background-color: #FFF;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+    -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+    -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+    max-width: 100%;
+}
+
+.title h1{
+    margin-top: 4rem;
+    font-weight: 800;
+}
+
+.selector h2{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.selector{
+    margin-top: 2rem;
+}
+
+.option {
+    background: rgb(33,212,253);
+background: -moz-linear-gradient(90deg, rgba(33,212,253,1) 14%, rgba(183,33,255,1) 87%);
+background: -webkit-linear-gradient(90deg, rgba(33,212,253,1) 14%, rgba(183,33,255,1) 87%);
+background: linear-gradient(90deg, rgba(33,212,253,1) 14%, rgba(183,33,255,1) 87%);
+    color: white;
+    padding: .5rem 6rem;
+    border-radius: 25px;
+    width: 100%;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    transition: all 0.4s ease-in;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+    -o-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+    -ms-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+    margin-inline: 1rem;
+}
+
+
+
+.option a{
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.option, button:hover{
+    cursor: pointer;
+}
+
+
+.social-media h3{
+    font-weight: 400;
+}
+
+.icons{
+    font-size: 26px
+}
+
+.social-media{
+    margin-top: 5rem;
+}
+
+.martin{
+    background: #121212;
+    color:#FFF;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 0rem .8rem;
+    border-radius: 5px;
+}
+
+
+/*------------------------------------*/
+
+
+.login-form{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.form-login{
+    max-width: 100%;
+}
+
+.form-login input{
+    position: relative;
+    border-style: none;
+    font-size: 15px;
+    border-bottom: solid 2px #CCC;
+    padding-bottom: .5rem;
+    padding-top: .5rem;;
+    padding-left: .3rem;
+}
+
+
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-button button{
+    background-color: transparent;
+    border-style: none;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.show-pass{
+    cursor: pointer;
+}
+
+
+.dont{
+    color: #949494;
+    font-size: 13px;
+}
+
+.dont a{
+    color: #121212;
+    text-decoration: none;
+}
+
+.login-option{
+    margin-bottom: 4rem;
+}

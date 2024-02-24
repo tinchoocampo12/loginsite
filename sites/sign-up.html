@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="flex-center">
+        <div class="welcome column-center">
+            <div class="welcome-wrapper column-center gap-2">
+                <div class="title column-center gap-05">
+                    <h1 class="color-text">Sign Up</h1>
+                    <span class="martin">M</span>
+                </div>
+                <div class="login-form column-center gap-1">
+                    <form class="form-login column-center gap-2" id="register-form">
+                        <div><input type="text" maxlength="15" class="username" id="username" placeholder="Username" size="35" required></div>
+                        <div><input type="email" class="email" id="email" placeholder="Email" size="35" required></div>
+                        <div><input type="password" class="password" minlength="6" id="password" placeholder="Password" size="35" required></div>
+                        <div><input type="password" class="confirm-password" minlength="6" id="confirm-password" placeholder="Confirm password" size="35" required></div>
+                        <div class="login-button content-center">
+                            <div class="option" id="login"><button type="submit" id="register-button">SIGN UP</button></div>
+                        </div>
+                   
+                    </form>
+                </div>
+                
+                <div class="have-account column-center gap-05 color-text">
+                    <p  class="dont">Already have an account? <a href="log-in.html">Login</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="../js/sign-up.js"></script>
+</body>
+</html>
