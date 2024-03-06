@@ -8,14 +8,14 @@ function registerUser(username, email, password) {
         return;
     }
 
-    var userData = {
+    let userData = {
         username: username,
         email: email,
         password: password
     };
 
     // convertir el tipo de dato objecto a string para su utilización en LS
-    var userDataJSON = JSON.stringify(userData);
+    let userDataJSON = JSON.stringify(userData);
 
     // setear el email como "llave" para validar después
     localStorage.setItem(email, userDataJSON);
@@ -25,10 +25,10 @@ function registerUser(username, email, password) {
 
 // click para quitar el evento por defecto del botón
 document.getElementById('register-button').addEventListener('click', function() {
-    var username = document.getElementById('username').value.trim();
-    var email = document.getElementById('email').value.trim();
-    var password = document.getElementById('password').value.trim();
-    var confirmPassword = document.getElementById('confirm-password').value.trim();
+    let username = document.getElementById('username').value.trim();
+    let email = document.getElementById('email').value.trim();
+    let password = document.getElementById('password').value.trim();
+    let confirmPassword = document.getElementById('confirm-password').value.trim();
 
     // verificar si algun campo esta vacio o consiste solo en espacios en blanco
     if (!username || !email || !password || !confirmPassword) {
